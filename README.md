@@ -1,8 +1,31 @@
-（1）使用的数据集分别是openoffice，eclipse，netBeans，压缩过后的版本以.rar的格式存储，下载解压即可；
-deal_datasetexample.ipynb展示了处理数据集的流程示例，component.ipynb展示了某些属性分析流程；
 
-（2）DBRD.py展示了使用的网络模型结构，embedding.ipynb和tokenize.ipynb展示了如何通过bert预处理模型获得对应的嵌入向量，
-normalization.ipynb展示了对惩罚项的处理流程；
+---
 
-（3）bert-mlp.py 和 dc-cnn.py中可以找到对比方法的模型结构，dataprepara-dccnn.py 和 test.ipynb分别展示了如何将dataset处理后
-输入到dc-cnn模型和bert-mlp模型
+# Duplicate Bug Report Detection (DBRD) Project
+
+This repository contains the code and data used in our research on improving Duplicate Bug Report Detection (DBRD) using neural network models.
+
+## Data
+
+We utilized the dataset provided by Lazar et al., which can be found [here](https://alazar.people.ysu.edu/msr14data/#). It includes bug reports from three open-source projects: OpenOffice, Eclipse, and NetBeans. The processed versions of the datasets for training are stored in `.rar` format. Simply download and extract them to use.
+
+- `deal_datasetexample.ipynb`: An example notebook showcasing the process of handling the datasets.
+- `component.ipynb`: A notebook demonstrating the analysis of certain attributes.
+
+## Models
+
+- `DBRD.ipynb`: This notebook presents the network model structure used in our research.
+- `embedding.ipynb` and `tokenize.ipynb`: These notebooks show how to obtain corresponding embedding vectors through BERT pre-processing.
+- `normalization.ipynb`: A notebook illustrating the process of handling penalty terms.
+
+## Baseline Models
+
+- `bert-mlp.py` and `dc-cnn.py`: These files contain the model structures for the baseline models.
+
+## Data Preparation and Testing
+
+- `dataprepara-dccnn.py`: A script showing how to prepare the dataset for input into the DC-CNN model.
+- `test.ipynb`: A notebook for testing the baseline models with the prepared dataset.
+
+---
+
