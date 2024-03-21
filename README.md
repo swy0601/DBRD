@@ -1,9 +1,9 @@
 
 ---
 
-# Duplicate Bug Report Detection (DBRD) Project
+# Duplicate Bug Report Detection (DBRD) using Siamese Neural Networks with Spatio-Temporal Locality
 
-This repository contains the code and data used in our research on improving Duplicate Bug Report Detection (DBRD) using neural network models.
+This repository contains the code and data used in our research on improving Duplicate Bug Report Detection (DBRD) using Siamese Neural Networks with Spatio-Temporal Locality.
 
 ## Data
 
